@@ -28,6 +28,7 @@ const usuarioSchema = mongoose.Schema({
         required: true,
         trim: true
     },
+    
 },{
     timestamps: true, //fecha de creacion y fecha de actualizacion
 });
